@@ -35,8 +35,9 @@ class Song
    end
 
    def self.genre_count
+     i = 0
      @@genres.each do |x|
-       puts x
+       genre_count = {x => i}
      end
    end
 
