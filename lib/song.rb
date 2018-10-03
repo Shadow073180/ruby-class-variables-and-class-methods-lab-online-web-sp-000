@@ -39,7 +39,7 @@ class Song
      @@genres.each do |x|
        genre_count = {x => @@genres.count(x)}
      end
-
+     return genre_count
  end
 
 
@@ -48,6 +48,5 @@ class Song
      @@artists.each do |x|
        artists_count = {x => @@artists.count(x)}
    end
-
-
-end
+     return artists_count
+   end
