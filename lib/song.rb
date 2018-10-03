@@ -34,8 +34,9 @@ class Song
      return @@genres.uniq
    end
 
-   def self.genre_count
-     return @@genres
+   def self.genre_count(@genre)
+    genre_count = {@@genres.each do |x| puts x => 0}
+      return genre_count
 
    end
 
